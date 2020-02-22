@@ -1011,7 +1011,7 @@ h3 {
 /* line 60, ../../Arafath/CL/january 2020/237. Real Estate/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li a {
   color: #ffffff;
-  font-size: 32px;
+  font-size: 24px;
   text-transform: capitalize;
   font-weight: 400;
   display: inline-block;
@@ -2946,12 +2946,16 @@ h3 {
 /* line 1, ../../Arafath/CL/january 2020/237. Real Estate/HTML/scss/_quotation.scss */
 .quotation_area {
   padding: 120px 0;
-  position: relative;
+  position: relative
 }
 
 /* line 4, ../../Arafath/CL/january 2020/237. Real Estate/HTML/scss/_quotation.scss */
 .quotation_area.ex_margin {
   margin-bottom: 180px;
+}
+
+.quotation_area.ex_margin2 {
+  margin-bottom: 30px;
 }
 
 @media (max-width: 767px) {
@@ -6301,3 +6305,8 @@ h6 {
 
 
 /*# sourceMappingURL=style.css.map */
+
+.thisisatest {
+  position: relative;
+  align-content: center;
+}
